@@ -1,0 +1,9 @@
+# Folines
+
+Folines means Focus Oriented Lines.
+
+Folines is a commercial standalone Windows app in development for typography-first live wallpapers. It turns one or more desktop screens into calm, customizable text surfaces with per-screen themes, quote packs, timing, motion, and recovery logic.
+
+Folines is developed as an independent product line with its own website, installer, roadmap, support path, and release cadence.
+
+Official site: https://folines.com/

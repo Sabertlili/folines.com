@@ -1,0 +1,9 @@
+{
+  "name": "Folines",
+  "short_name": "Folines",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080c0a",
+  "theme_color": "#080c0a",
+  "description": "Focus Oriented Lines for standalone Windows live typography wallpapers."
+}
