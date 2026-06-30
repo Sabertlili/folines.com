@@ -140,6 +140,13 @@ h1 {
   margin-top: 2rem;
 }
 
+.release-note {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 760;
+}
+
 .button {
   min-height: 3.35rem;
   display: inline-flex;
@@ -273,6 +280,60 @@ h1 {
   color: var(--paper);
 }
 
+.download-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.72fr);
+  gap: clamp(1.25rem, 5vw, 4rem);
+  align-items: stretch;
+}
+
+.download-panel > div:first-child p {
+  max-width: 45rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.download-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 24rem;
+  padding: 1.3rem;
+  border: 1px solid rgba(159, 213, 198, 0.34);
+  border-radius: 0.95rem;
+  background:
+    linear-gradient(145deg, rgba(159, 213, 198, 0.13), rgba(229, 192, 111, 0.08)),
+    rgba(247, 241, 229, 0.055);
+}
+
+.download-card .version {
+  width: fit-content;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  color: var(--accent);
+  font-weight: 950;
+}
+
+.download-card h3 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 0.95;
+}
+
+.download-card p,
+.download-card small {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.download-card small {
+  display: block;
+  font-weight: 700;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -358,6 +419,7 @@ footer a,
 
   .hero,
   .split,
+  .download-panel,
   .cards,
   .strip {
     grid-template-columns: 1fr;
